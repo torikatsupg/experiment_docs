@@ -6,3 +6,6 @@ build
 
 # Ignore Analysis tool directory
 experiment
+
+# Ignore Mackintosh system file
+.DS_Store
