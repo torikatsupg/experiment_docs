@@ -3,17 +3,17 @@ marp: true
 paginate: true
 ---
 # 自然言語に基づく変数の命名方法の提案
-2020/11/4
-厨子研究室
-70711041 鳥居克哉
+70711041
+鳥居克哉
 
 ---
 # スライドの目次
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 - 論文の構成
 - 研究の目的
 - 研究の背景
   - 識別子とは
-  - コンソールに"Hello World"と表示するjavaプログラムの例
+  - コンソールに"Hello Worldと表示するjavaプログラムの例"
   - 識別子の命名にはいくつかの制約がある
   - 識別子の命名は重要である
   - 識別子の命名に関する暗黙知の存在
@@ -98,12 +98,12 @@ Java SE 8の場合[^2]
 Listing 1
 ```python
 v(u, p):
-    u1 = d.u()
+    u1 = d.u();
     p1 = d.p()
     return u == u1 and p == u1
 ```
 Listing 2
-```python
+```
 login(username, password):
     user = db.username()
     pass = db.password()
@@ -197,7 +197,7 @@ AST解析ツールの選択肢は主に以下二つ
 [^1]: オーム社(2001)『情報技術用語大辞典』相磯秀夫監修, オーム社, p288, l60 ~ l63
 [^2]: James Gosling・Bill Joy・Guy Steele・Gilad Bracha・Alex Buckley(2015)『The Java® Language Specification:Java SE 8 Edition』<https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf> (参照2020-10-31)p22-24
 [^3]: Johannes Hofmeister・Janet Siegmund・Daniel V. Holt(2017)「Shorter Identifier Names Take Longer to Comprehend」『2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)』IEEE<https://www.infosun.fim.uni-passau.de/publications/docs/HoSeHo17.pdf>(参照2020-10-25)
-[^4]: Google(発行年不明)「Google Java Style Guide」<https://google.github.io/styleguide/javaguide.html>(参照2020-10-10)
+[^4]:Google(発行年不明)「Google Java Style Guide」<https://google.github.io/styleguide/javaguide.html>(参照2020-10-10)
 
 ---
 [^5]: Github 「Search・java」<https://github.com/search?q=java>(参照2020-10-20)
