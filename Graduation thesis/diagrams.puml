@@ -1,0 +1,19 @@
+@startuml
+salt
+{
+  {T
+  + CompilationUnit
+  ++ PackageDeclaration
+  +++ QualifiedNameExpr
+  ++++"com.github.javaparser"
+  ++ SingleTypeImportDeclaration
+  +++ ClassOrInterfaceType
+  ++++"java.time.LocalDateTime"
+  ++ ClassOrInterfaceDeclaration
+  +++ NameExpr
+  ++++ "TimePrinter"
+  +++ MethodDeclaration
+  ++++ "void main String args"
+  }
+}
+@enduml
